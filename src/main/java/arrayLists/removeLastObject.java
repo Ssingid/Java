@@ -1,6 +1,7 @@
 package arrayLists;
 import java.util.ArrayList;
-public class removeLastObject {
+public class
+removeLastObject {
 
 
     public static ArrayList<Object> removeLastObject(ArrayList<Object> list) {

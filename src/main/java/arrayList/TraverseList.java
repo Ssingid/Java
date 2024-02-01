@@ -4,7 +4,7 @@ import java.util.ArrayList;
 public class TraverseList {
     public static void main(String[] args) {
 
-        ArrayList<String> stringList = new ArrayList<>();
+        ArrayList<String> stringList = new ArrayList();
         stringList.add("Mazda");
         stringList.add("Benz");
         stringList.add("Toyota");

@@ -4,7 +4,7 @@ import org.junit.Test;
 import static org.junit.Assert.assertArrayEquals;
 import java.util.ArrayList;
 
-public class arrayListToArrayTest {
+public class ArrayListToArrayTest {
 
     @Test
     public void testConvertArrayListToArray() {
@@ -40,4 +40,3 @@ public class arrayListToArrayTest {
         assertArrayEquals(expectedArray4, resultArray4);
     }
 }
-

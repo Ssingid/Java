@@ -4,7 +4,7 @@ import java.util.ArrayList;
 public class RemoveLastElement {
     public static void main(String[] args) {
 
-        ArrayList<String> stringList = new ArrayList<>();
+        ArrayList<String> stringList = new ArrayList<String>();
         stringList.add("Apple");
         stringList.add("Banana");
         stringList.add("Orange");
