@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="537e706c-ea4c-4c07-97d6-5ae81bfd0607" name="Changes" comment="maven changes">
-      <change afterPath="$PROJECT_DIR$/src/main/java/additiona/Factorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/additiona/StringRotated.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/additiona/StringRotatedTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/additiona/FactorialTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/additiona/FactorialTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +51,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "TestNG.FactorialTest.FactorialTest.executor": "Run",
+    "TestNG.StringRotatedTest.testStringRotation.executor": "Run",
     "TestNG.SwapTest.testSwapping.executor": "Run",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
@@ -72,16 +73,7 @@
       <command value="ganga" />
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.FactorialTest.FactorialTest">
-    <configuration name="AnagramCheck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="$PROJECT_DIR$/../../../../Program Files/Java/jdk-21" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="AnagramCheck" />
-      <module name="Java_Code" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.StringRotatedTest.testStringRotation">
     <configuration name="ArrayListToArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArrayListToArray" />
       <module name="Java_Code" />
@@ -123,6 +115,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StringRotatedTest.testStringRotation" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Java_Code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="additiona.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="additiona" />
+      <option name="MAIN_CLASS_NAME" value="additiona.StringRotatedTest" />
+      <option name="METHOD_NAME" value="testStringRotation" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SwapTest.testSwapping" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Java_Code" />
       <extension name="coverage">
@@ -143,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.StringRotatedTest.testStringRotation" />
         <item itemvalue="TestNG.FactorialTest.FactorialTest" />
         <item itemvalue="TestNG.SwapTest.testSwapping" />
         <item itemvalue="JUnit.SwapTest.testSwap" />
         <item itemvalue="Application.ArrayListToArray" />
-        <item itemvalue="Application.AnagramCheck" />
       </list>
     </recent_temporary>
   </component>
