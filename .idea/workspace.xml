@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="537e706c-ea4c-4c07-97d6-5ae81bfd0607" name="Changes" comment="maven changes">
-      <change afterPath="$PROJECT_DIR$/src/main/java/additiona/StringRotated.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/additiona/StringRotatedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/additiona/ConvertString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/additiona/ConvertStringTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,6 +50,7 @@
     "Maven.Unknown [install].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.ConvertStringTest.testConvertingString.executor": "Run",
     "TestNG.FactorialTest.FactorialTest.executor": "Run",
     "TestNG.StringRotatedTest.testStringRotation.executor": "Run",
     "TestNG.SwapTest.testSwapping.executor": "Run",
@@ -73,14 +74,7 @@
       <command value="ganga" />
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.StringRotatedTest.testStringRotation">
-    <configuration name="ArrayListToArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArrayListToArray" />
-      <module name="Java_Code" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.ConvertStringTest.testConvertingString">
     <configuration name="SwapTest.testSwap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java_Code" />
       <extension name="coverage">
@@ -93,6 +87,24 @@
       <option name="MAIN_CLASS_NAME" value="additional.SwapTest" />
       <option name="METHOD_NAME" value="testSwap" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConvertStringTest.testConvertingString" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Java_Code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="additiona.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="additiona" />
+      <option name="MAIN_CLASS_NAME" value="additiona.ConvertStringTest" />
+      <option name="METHOD_NAME" value="testConvertingString" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -153,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ConvertStringTest.testConvertingString" />
         <item itemvalue="TestNG.StringRotatedTest.testStringRotation" />
         <item itemvalue="TestNG.FactorialTest.FactorialTest" />
         <item itemvalue="TestNG.SwapTest.testSwapping" />
         <item itemvalue="JUnit.SwapTest.testSwap" />
-        <item itemvalue="Application.ArrayListToArray" />
       </list>
     </recent_temporary>
   </component>
