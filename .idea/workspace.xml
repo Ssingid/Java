@@ -54,6 +54,7 @@
       <change afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/streams/Duplicates.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/streams/GroupingList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/streams/IntegerFilter.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/additiona/ConvertStringTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/additiona/FactorialTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/additiona/RepeatedCharactersTest.java" afterDir="false" />
@@ -72,7 +73,6 @@
       <change afterPath="$PROJECT_DIR$/src/test/java/strings/reverseEachWordTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/strings/rotationOfStringTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/strings/vowelCountTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +144,7 @@
       <command value="ganga" />
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.GroupingListTest.testGrouping">
+  <component name="RunManager" selected="TestNG.IntegerFilterTest.testFilteredInteger">
     <configuration name="DuplicatesTest.testRemoveDuplicates" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Java_Code" />
       <extension name="coverage">
@@ -181,6 +181,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="IntegerFilterTest.testFilteredInteger" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Java_Code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="streams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="streams" />
+      <option name="MAIN_CLASS_NAME" value="streams.IntegerFilterTest" />
+      <option name="METHOD_NAME" value="testFilteredInteger" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RepeatedCharactersTest.testCharacterCount" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Java_Code" />
       <extension name="coverage">
@@ -192,24 +210,6 @@
       <option name="PACKAGE_NAME" value="additiona" />
       <option name="MAIN_CLASS_NAME" value="additiona.RepeatedCharactersTest" />
       <option name="METHOD_NAME" value="testCharacterCount" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SumItemTest.testGetSumItems" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Java_Code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="additiona.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="additiona" />
-      <option name="MAIN_CLASS_NAME" value="additiona.SumItemTest" />
-      <option name="METHOD_NAME" value="testGetSumItems" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -237,11 +237,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.IntegerFilterTest.testFilteredInteger" />
         <item itemvalue="TestNG.GroupingListTest.testGrouping" />
         <item itemvalue="TestNG.DuplicatesTest.testRemoveDuplicates" />
         <item itemvalue="TestNG.SwappingWithOutThirdTest.testSwapping" />
         <item itemvalue="TestNG.RepeatedCharactersTest.testCharacterCount" />
-        <item itemvalue="TestNG.SumItemTest.testGetSumItems" />
       </list>
     </recent_temporary>
   </component>
