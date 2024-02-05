@@ -53,6 +53,7 @@
       <change afterPath="$PROJECT_DIR$/src/main/java/oops/Product.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/streams/Duplicates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/streams/GroupingList.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/additiona/ConvertStringTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/additiona/FactorialTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/additiona/RepeatedCharactersTest.java" afterDir="false" />
@@ -66,11 +67,11 @@
       <change afterPath="$PROJECT_DIR$/src/test/java/arrayLists/studentTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/streams/DuplicatesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/streams/GroupingListTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/strings/anagramStringsTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/strings/reverseEachWordTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/strings/rotationOfStringTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/strings/vowelCountTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -115,7 +116,9 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "TestNG.ConvertStringTest.testConvertingString.executor": "Run",
+    "TestNG.DuplicatesTest.testRemoveDuplicates.executor": "Run",
     "TestNG.FactorialTest.FactorialTest.executor": "Run",
+    "TestNG.GroupingListTest.testGrouping.executor": "Run",
     "TestNG.RepeatedCharactersTest.testCharacterCount.executor": "Run",
     "TestNG.StringRotatedTest.testStringRotation.executor": "Run",
     "TestNG.SumItemTest.testGetSumItems.executor": "Run",
@@ -141,25 +144,7 @@
       <command value="ganga" />
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.DuplicatesTest.testRemoveDuplicates">
-    <configuration name="ConvertStringTest.testConvertingString" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Java_Code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="additiona.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="additiona" />
-      <option name="MAIN_CLASS_NAME" value="additiona.ConvertStringTest" />
-      <option name="METHOD_NAME" value="testConvertingString" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.GroupingListTest.testGrouping">
     <configuration name="DuplicatesTest.testRemoveDuplicates" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Java_Code" />
       <extension name="coverage">
@@ -171,6 +156,24 @@
       <option name="PACKAGE_NAME" value="streams" />
       <option name="MAIN_CLASS_NAME" value="streams.DuplicatesTest" />
       <option name="METHOD_NAME" value="testRemoveDuplicates" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GroupingListTest.testGrouping" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Java_Code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="streams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="streams" />
+      <option name="MAIN_CLASS_NAME" value="streams.GroupingListTest" />
+      <option name="METHOD_NAME" value="testGrouping" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -234,11 +237,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.GroupingListTest.testGrouping" />
         <item itemvalue="TestNG.DuplicatesTest.testRemoveDuplicates" />
         <item itemvalue="TestNG.SwappingWithOutThirdTest.testSwapping" />
         <item itemvalue="TestNG.RepeatedCharactersTest.testCharacterCount" />
         <item itemvalue="TestNG.SumItemTest.testGetSumItems" />
-        <item itemvalue="TestNG.ConvertStringTest.testConvertingString" />
       </list>
     </recent_temporary>
   </component>
