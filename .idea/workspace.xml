@@ -5,10 +5,72 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="537e706c-ea4c-4c07-97d6-5ae81bfd0607" name="Changes" comment="maven changes">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Strings/Vowels.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Strings/anagramStrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Strings/readString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Strings/reverseEachWord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Strings/rotationOfString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Strings/vowelCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/additiona/ConvertString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/additiona/CountUniqueWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/additiona/Factorial.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/additiona/RepeatedCharacters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/additiona/StringRotated.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/additiona/SumItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/additiona/Swap.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/additiona/SwappingWithOutThird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/arrayList/RemoveLastElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/arrayList/RemoveLowGPAStudents.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/arrayList/TraverseList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/arrayLists/arrayListToArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/arrayLists/arrayListTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/arrayLists/removeLastObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/arrayLists/student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/arrays/binarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/arrays/bubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/arrays/displayArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/arrays/minMaxNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/arrays/moveZeros.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/arrays/readArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/arrays/reverseArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/arrays/reversingarray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/arrays/rotateArrayLeft.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/constructor_static_final/ChildClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/constructor_static_final/Final/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/constructor_static_final/Final/FinalClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/constructor_static_final/ParentClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/constructor_static_final/staticvar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/loopsconditionss/AgeClassifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/loopsconditionss/FibonacciSeries.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/loopsconditionss/FizzBuzz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/loopsconditionss/OutputPattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/loopsconditionss/printReverseNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/objectarrays/movie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/objectarrays/person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/objectarrays/product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oops/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oops/Polymorphysim.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oops/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/streams/Duplicates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/additiona/ConvertStringTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/additiona/FactorialTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/additiona/RepeatedCharactersTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/additiona/StringRotatedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/additiona/SumItemTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/additiona/SwapTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/additiona/SwappingWithOutThirdTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/arrayLists/ArrayListToArrayTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/arrayLists/arrayListTraversalTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/arrayLists/removeLastObjectTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/arrayLists/studentTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/streams/DuplicatesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/strings/anagramStringsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/strings/reverseEachWordTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/strings/rotationOfStringTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/strings/vowelCountTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,7 +86,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src" />
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
@@ -79,7 +141,7 @@
       <command value="ganga" />
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.SwappingWithOutThirdTest.testSwapping">
+  <component name="RunManager" selected="TestNG.DuplicatesTest.testRemoveDuplicates">
     <configuration name="ConvertStringTest.testConvertingString" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Java_Code" />
       <extension name="coverage">
@@ -98,6 +160,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DuplicatesTest.testRemoveDuplicates" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Java_Code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="streams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="streams" />
+      <option name="MAIN_CLASS_NAME" value="streams.DuplicatesTest" />
+      <option name="METHOD_NAME" value="testRemoveDuplicates" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RepeatedCharactersTest.testCharacterCount" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Java_Code" />
       <extension name="coverage">
@@ -109,24 +189,6 @@
       <option name="PACKAGE_NAME" value="additiona" />
       <option name="MAIN_CLASS_NAME" value="additiona.RepeatedCharactersTest" />
       <option name="METHOD_NAME" value="testCharacterCount" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringRotatedTest.testStringRotation" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Java_Code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="additiona.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="additiona" />
-      <option name="MAIN_CLASS_NAME" value="additiona.StringRotatedTest" />
-      <option name="METHOD_NAME" value="testStringRotation" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -172,11 +234,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.DuplicatesTest.testRemoveDuplicates" />
         <item itemvalue="TestNG.SwappingWithOutThirdTest.testSwapping" />
         <item itemvalue="TestNG.RepeatedCharactersTest.testCharacterCount" />
         <item itemvalue="TestNG.SumItemTest.testGetSumItems" />
         <item itemvalue="TestNG.ConvertStringTest.testConvertingString" />
-        <item itemvalue="TestNG.StringRotatedTest.testStringRotation" />
       </list>
     </recent_temporary>
   </component>
