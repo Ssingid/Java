@@ -7,7 +7,9 @@
     <list default="true" id="537e706c-ea4c-4c07-97d6-5ae81bfd0607" name="Changes" comment="maven changes">
       <change afterPath="$PROJECT_DIR$/src/main/java/streams/Programs.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/streams/Squares.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/streams/SquaresTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/streams/StringFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/streams/StringSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/streams/StringFilterTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,7 +25,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src/main/java/streams" />
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
@@ -59,6 +61,7 @@
     "TestNG.ProgramsTest.testCapitalizeWords.executor": "Run",
     "TestNG.RepeatedCharactersTest.testCharacterCount.executor": "Run",
     "TestNG.SquaresTest.testSumOfSquares.executor": "Run",
+    "TestNG.StringFilterTest.testStrings.executor": "Run",
     "TestNG.StringRotatedTest.testStringRotation.executor": "Run",
     "TestNG.SumItemTest.testGetSumItems.executor": "Run",
     "TestNG.SwapTest.testSwapping.executor": "Run",
@@ -83,8 +86,8 @@
       <command value="ganga" />
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.SquaresTest.testSumOfSquares">
-    <configuration name="DuplicatesTest.testRemoveDuplicates" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.StringSortTest.testStringSort">
+    <configuration name="StringSortTest.testStringSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java_Code" />
       <extension name="coverage">
         <pattern>
@@ -93,29 +96,9 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="streams" />
-      <option name="MAIN_CLASS_NAME" value="streams.DuplicatesTest" />
-      <option name="METHOD_NAME" value="testRemoveDuplicates" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GroupingListTest.testGrouping" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Java_Code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="streams.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="streams" />
-      <option name="MAIN_CLASS_NAME" value="streams.GroupingListTest" />
-      <option name="METHOD_NAME" value="testGrouping" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
+      <option name="MAIN_CLASS_NAME" value="streams.StringSortTest" />
+      <option name="METHOD_NAME" value="testStringSort" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -174,13 +157,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StringFilterTest.testStrings" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Java_Code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="streams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="streams" />
+      <option name="MAIN_CLASS_NAME" value="streams.StringFilterTest" />
+      <option name="METHOD_NAME" value="testStrings" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StringSortTest.testStringSort" />
+        <item itemvalue="TestNG.StringFilterTest.testStrings" />
         <item itemvalue="TestNG.SquaresTest.testSumOfSquares" />
         <item itemvalue="TestNG.ProgramsTest.testCapitalizeWords" />
         <item itemvalue="TestNG.IntegerFilterTest.testFilteredInteger" />
-        <item itemvalue="TestNG.GroupingListTest.testGrouping" />
-        <item itemvalue="TestNG.DuplicatesTest.testRemoveDuplicates" />
       </list>
     </recent_temporary>
   </component>
