@@ -6,6 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="537e706c-ea4c-4c07-97d6-5ae81bfd0607" name="Changes" comment="maven changes">
       <change afterPath="$PROJECT_DIR$/src/main/java/streams/Programs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/streams/Squares.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/streams/SquaresTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +23,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src/main/java/streams" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src" />
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
@@ -53,7 +56,9 @@
     "TestNG.FactorialTest.FactorialTest.executor": "Run",
     "TestNG.GroupingListTest.testGrouping.executor": "Run",
     "TestNG.IntegerFilterTest.testFilteredInteger.executor": "Run",
+    "TestNG.ProgramsTest.testCapitalizeWords.executor": "Run",
     "TestNG.RepeatedCharactersTest.testCharacterCount.executor": "Run",
+    "TestNG.SquaresTest.testSumOfSquares.executor": "Run",
     "TestNG.StringRotatedTest.testStringRotation.executor": "Run",
     "TestNG.SumItemTest.testGetSumItems.executor": "Run",
     "TestNG.SwapTest.testSwapping.executor": "Run",
@@ -78,7 +83,7 @@
       <command value="ganga" />
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.ProgramsTest.testCapitalizeWords">
+  <component name="RunManager" selected="TestNG.SquaresTest.testSumOfSquares">
     <configuration name="DuplicatesTest.testRemoveDuplicates" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Java_Code" />
       <extension name="coverage">
@@ -151,17 +156,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SwappingWithOutThirdTest.testSwapping" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SquaresTest.testSumOfSquares" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Java_Code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="additiona.*" />
+          <option name="PATTERN" value="streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="additiona" />
-      <option name="MAIN_CLASS_NAME" value="additiona.SwappingWithOutThirdTest" />
-      <option name="METHOD_NAME" value="testSwapping" />
+      <option name="PACKAGE_NAME" value="streams" />
+      <option name="MAIN_CLASS_NAME" value="streams.SquaresTest" />
+      <option name="METHOD_NAME" value="testSumOfSquares" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -171,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.SquaresTest.testSumOfSquares" />
         <item itemvalue="TestNG.ProgramsTest.testCapitalizeWords" />
         <item itemvalue="TestNG.IntegerFilterTest.testFilteredInteger" />
         <item itemvalue="TestNG.GroupingListTest.testGrouping" />
         <item itemvalue="TestNG.DuplicatesTest.testRemoveDuplicates" />
-        <item itemvalue="TestNG.SwappingWithOutThirdTest.testSwapping" />
       </list>
     </recent_temporary>
   </component>
