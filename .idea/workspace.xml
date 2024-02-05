@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="537e706c-ea4c-4c07-97d6-5ae81bfd0607" name="Changes" comment="maven changes">
-      <change afterPath="$PROJECT_DIR$/src/main/java/additiona/CountUniqueWords.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/additiona/SumItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/additiona/SumItemTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/additiona/RepeatedCharacters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/additiona/SwappingWithOutThird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/additiona/RepeatedCharactersTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/additiona/SwappingWithOutThirdTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,9 +54,11 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "TestNG.ConvertStringTest.testConvertingString.executor": "Run",
     "TestNG.FactorialTest.FactorialTest.executor": "Run",
+    "TestNG.RepeatedCharactersTest.testCharacterCount.executor": "Run",
     "TestNG.StringRotatedTest.testStringRotation.executor": "Run",
     "TestNG.SumItemTest.testGetSumItems.executor": "Run",
     "TestNG.SwapTest.testSwapping.executor": "Run",
+    "TestNG.SwappingWithOutThirdTest.testSwapping.executor": "Run",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
@@ -76,7 +79,7 @@
       <command value="ganga" />
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.SumItemTest.testGetSumItems">
+  <component name="RunManager" selected="TestNG.SwappingWithOutThirdTest.testSwapping">
     <configuration name="ConvertStringTest.testConvertingString" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Java_Code" />
       <extension name="coverage">
@@ -95,7 +98,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FactorialTest.FactorialTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="RepeatedCharactersTest.testCharacterCount" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Java_Code" />
       <extension name="coverage">
         <pattern>
@@ -104,8 +107,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="additiona" />
-      <option name="MAIN_CLASS_NAME" value="additiona.FactorialTest" />
-      <option name="METHOD_NAME" value="FactorialTest" />
+      <option name="MAIN_CLASS_NAME" value="additiona.RepeatedCharactersTest" />
+      <option name="METHOD_NAME" value="testCharacterCount" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -149,7 +152,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SwapTest.testSwapping" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SwappingWithOutThirdTest.testSwapping" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Java_Code" />
       <extension name="coverage">
         <pattern>
@@ -158,7 +161,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="additiona" />
-      <option name="MAIN_CLASS_NAME" value="additiona.SwapTest" />
+      <option name="MAIN_CLASS_NAME" value="additiona.SwappingWithOutThirdTest" />
       <option name="METHOD_NAME" value="testSwapping" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -169,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.SwappingWithOutThirdTest.testSwapping" />
+        <item itemvalue="TestNG.RepeatedCharactersTest.testCharacterCount" />
         <item itemvalue="TestNG.SumItemTest.testGetSumItems" />
         <item itemvalue="TestNG.ConvertStringTest.testConvertingString" />
         <item itemvalue="TestNG.StringRotatedTest.testStringRotation" />
-        <item itemvalue="TestNG.FactorialTest.FactorialTest" />
-        <item itemvalue="TestNG.SwapTest.testSwapping" />
       </list>
     </recent_temporary>
   </component>
