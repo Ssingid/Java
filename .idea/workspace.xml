@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="537e706c-ea4c-4c07-97d6-5ae81bfd0607" name="Changes" comment="maven changes">
+      <change afterPath="$PROJECT_DIR$/src/main/java/designpatterns/Singleton.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/exception/BankAccount.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/exception/Conversion.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/exception/FileReader.java" afterDir="false" />
@@ -50,7 +51,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src/main/java/streams" />
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
@@ -117,26 +118,13 @@
       <command value="ganga" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.EvenOddThreadExample">
+  <component name="RunManager" selected="JUnit.SingletonTest.testSingleton">
     <configuration name="EvenOddThreadExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="threads.EvenOddThreadExample" />
       <module name="Java_Code" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="threads.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="finalkeyword.Main" />
-      <module name="Java_Code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="finalkeyword.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -189,13 +177,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SingletonTest.testSingleton" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java_Code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="designpatterns.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="designpatterns" />
+      <option name="MAIN_CLASS_NAME" value="designpatterns.SingletonTest" />
+      <option name="METHOD_NAME" value="testSingleton" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SingletonTest.testSingleton" />
         <item itemvalue="Application.EvenOddThreadExample" />
         <item itemvalue="JUnit.ConversionTest.testConversionOverException" />
         <item itemvalue="JUnit.MainTest.testWithInvalidAmount" />
         <item itemvalue="Application.inheritance.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
