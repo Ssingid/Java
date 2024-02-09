@@ -5,19 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="537e706c-ea4c-4c07-97d6-5ae81bfd0607" name="Changes" comment="maven changes">
+      <change afterPath="$PROJECT_DIR$/src/main/java/exception/BankAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exception/Conversion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exception/FileReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exception/InsufficientFundsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exception/InvalidWithdrawalException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exception/Main.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/finalkeyword/Main.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/finalkeyword/Student.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/inheritance/Main.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/inheritance/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/polymorphism/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/polymorphism/Lexus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/polymorphism/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/polymorphism/Toyota.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/streams/Programs.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/streams/Squares.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/streams/StringFilter.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/streams/StringSort.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/streams/implementation/MathOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/streams/implementation/NaturalSorting.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/streams/implementation/StringVowel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/streams/implementation/Vowels.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/exception/ConversionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/exception/FileReaderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/exception/MainTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/streams/NaturalSortingTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/streams/StringFilterTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/streams/StringSortTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/streams/VowelsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +73,7 @@
     "Application.Vowels.executor": "Run",
     "Application.arrayListToArray.executor": "Run",
     "Application.inheritance.Main.executor": "Run",
+    "JUnit.MainTest.testWithInvalidAmount.executor": "Run",
     "JUnit.StringSortTest.testStringSort.executor": "Run",
     "JUnit.SwapTest.testSwap.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
@@ -96,7 +113,7 @@
       <command value="ganga" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.inheritance.Main">
+  <component name="RunManager" selected="JUnit.ConversionTest.testConversionOverException">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="finalkeyword.Main" />
       <module name="Java_Code" />
@@ -123,6 +140,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ConversionTest.testConversionOverException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java_Code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exception.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="exception" />
+      <option name="MAIN_CLASS_NAME" value="exception.ConversionTest" />
+      <option name="METHOD_NAME" value="testConversionOverException" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainTest.testWithInvalidAmount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java_Code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exception.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="exception" />
+      <option name="MAIN_CLASS_NAME" value="exception.MainTest" />
+      <option name="METHOD_NAME" value="testWithInvalidAmount" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StringSortTest.testStringSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java_Code" />
       <extension name="coverage">
@@ -139,49 +188,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SquaresTest.testSumOfSquares" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Java_Code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="streams.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="streams" />
-      <option name="MAIN_CLASS_NAME" value="streams.SquaresTest" />
-      <option name="METHOD_NAME" value="testSumOfSquares" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringFilterTest.testStrings" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Java_Code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="streams.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="streams" />
-      <option name="MAIN_CLASS_NAME" value="streams.StringFilterTest" />
-      <option name="METHOD_NAME" value="testStrings" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ConversionTest.testConversionOverException" />
+        <item itemvalue="JUnit.MainTest.testWithInvalidAmount" />
         <item itemvalue="Application.inheritance.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.StringSortTest.testStringSort" />
-        <item itemvalue="TestNG.StringFilterTest.testStrings" />
-        <item itemvalue="TestNG.SquaresTest.testSumOfSquares" />
       </list>
     </recent_temporary>
   </component>
