@@ -5,10 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="537e706c-ea4c-4c07-97d6-5ae81bfd0607" name="Changes" comment="maven changes">
+      <change afterPath="$PROJECT_DIR$/src/main/java/finalkeyword/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/finalkeyword/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/inheritance/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/inheritance/Product.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/streams/Programs.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/streams/Squares.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/streams/StringFilter.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/streams/StringSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/streams/implementation/MathOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/streams/implementation/StringVowel.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/streams/StringFilterTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/streams/StringSortTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -44,11 +50,13 @@
   "keyToString": {
     "Application.AnagramCheck.executor": "Run",
     "Application.ArrayListToArray.executor": "Run",
+    "Application.Main.executor": "Run",
     "Application.RemoveLastElement.executor": "Run",
     "Application.RemoveLowGPAStudents.executor": "Run",
     "Application.TraverseList.executor": "Run",
     "Application.Vowels.executor": "Run",
     "Application.arrayListToArray.executor": "Run",
+    "Application.inheritance.Main.executor": "Run",
     "JUnit.StringSortTest.testStringSort.executor": "Run",
     "JUnit.SwapTest.testSwap.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
@@ -88,7 +96,33 @@
       <command value="ganga" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StringSortTest.testStringSort">
+  <component name="RunManager" selected="Application.inheritance.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="finalkeyword.Main" />
+      <module name="Java_Code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="finalkeyword.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="inheritance.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inheritance.Main" />
+      <module name="Java_Code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="inheritance.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StringSortTest.testStringSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java_Code" />
       <extension name="coverage">
@@ -101,42 +135,6 @@
       <option name="MAIN_CLASS_NAME" value="streams.StringSortTest" />
       <option name="METHOD_NAME" value="testStringSort" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IntegerFilterTest.testFilteredInteger" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Java_Code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="streams.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="streams" />
-      <option name="MAIN_CLASS_NAME" value="streams.IntegerFilterTest" />
-      <option name="METHOD_NAME" value="testFilteredInteger" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProgramsTest.testCapitalizeWords" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Java_Code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="streams.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="streams" />
-      <option name="MAIN_CLASS_NAME" value="streams.ProgramsTest" />
-      <option name="METHOD_NAME" value="testCapitalizeWords" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -179,11 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.inheritance.Main" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.StringSortTest.testStringSort" />
         <item itemvalue="TestNG.StringFilterTest.testStrings" />
         <item itemvalue="TestNG.SquaresTest.testSumOfSquares" />
-        <item itemvalue="TestNG.ProgramsTest.testCapitalizeWords" />
-        <item itemvalue="TestNG.IntegerFilterTest.testFilteredInteger" />
       </list>
     </recent_temporary>
   </component>
@@ -209,5 +207,21 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="maven changes" />
     <option name="LAST_COMMIT_MESSAGE" value="maven changes" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/finalkeyword/Main.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/finalkeyword/Student.java</url>
+          <line>3</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
